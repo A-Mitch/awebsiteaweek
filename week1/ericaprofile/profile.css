@@ -1,6 +1,10 @@
 /* This is the CSS for Erica's profile. The goal is to "design up", meaning that I design with mobile
 devices in mind since the majority of people will be viewing her profile on their mobile devices.  */
 
+*{
+    background-color: #CACCD4;
+}
+
 .profile_image {
         width: 100px;
         height: 100px;
@@ -9,6 +13,7 @@ devices in mind since the majority of people will be viewing her profile on thei
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
+        border: 5px black solid;
       
     }
 
@@ -32,6 +37,7 @@ devices in mind since the majority of people will be viewing her profile on thei
         margin-left: auto;
         margin-right: auto;
         margin-top: 4%;
+        margin-bottom: 4%;
     }
 
     .propic{
@@ -42,6 +48,92 @@ devices in mind since the majority of people will be viewing her profile on thei
         width: auto;
     }   
 
+    .personal_info h1{
+        font-size: 2.5em;
+        margin-left: 1%;
+        /* font-weight: normal; */
+    }
 
+    .personal_info p{
+        font-size:1.8em;
+         margin-left: 1%;
+         width: 50%;
+    }
+
+    .personal_info ul{
+        margin-right: 38%;
+        line-height: 17px;
+    }
+
+    .personal_info li{
+        font-size:14px;
+        /* list-style: none; */
+    }
+
+    .personal_info a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+    #red {
+        background-color: red;
+    }
 }
+
+/* Tablets */
+@media only screen and (min-device-width: 450px) and (max-device-width:768px){
+    .profile_image {
+        width: 234px;
+        height: 228px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .propic{
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: -67%;
+        height: 124%;
+        width: auto;
+    }   
+
+    .personal_info h1{
+        font-size: 2.5em;
+        margin-left: 1%;
+        /* font-weight: normal; */
+    }
+
+    .personal_info p{
+        font-size:1.8em;
+         margin-left: 1%;
+         width: 50%;
+    }
+
+    .personal_info ul{
+        margin-right: 38%;
+        line-height: 17px;
+    }
+
+    .personal_info li{
+        font-size:14px;
+        /* list-style: none; */
+    }
+
+    .personal_info a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+    #red {
+        background-color: red;
+    }
+}
+
 
