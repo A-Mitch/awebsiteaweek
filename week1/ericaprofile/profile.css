@@ -1,0 +1,47 @@
+/* This is the CSS for Erica's profile. The goal is to "design up", meaning that I design with mobile
+devices in mind since the majority of people will be viewing her profile on their mobile devices.  */
+
+.profile_image {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+
+    .propic{
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: -67%;
+        height: 124%;
+        width: auto;
+    }   
+
+
+/* Mobile phones */
+@media only screen and (max-device-width:450px){
+    .profile_image {
+        width: 350px;
+        height: 340px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4%;
+    }
+
+    .propic{
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: -67%;
+        height: 124%;
+        width: auto;
+    }   
+
+
+}
+
