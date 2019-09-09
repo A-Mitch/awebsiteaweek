@@ -13,5 +13,4 @@ Model-View-Controller
 HTTPS requests
 
 ### Element
-```html 
-<NAV> ```
+<NAV> 
