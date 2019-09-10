@@ -8,12 +8,12 @@ I truly see the impact of websites and web applications in the world around us a
 tl;dr: Websites and web applications are everywhere and I have always wanted to make them, so I am using this good 'ole imagination of mine paired with my programming skills to have fun and make kick ass things.
 
 # How I am structuring this 🗄
+👨🏾‍💻Side Note: Before I really get into website making I am going to be working on learning Modern JavaScript from [The Modern JavaScript tutorial](http://javascript.info/) since learning JavaScript is my main goal.
+
 Homework: One small assignment created for myself that will incorporate many elements of the web.
-> - Homework problems are going to be random problems/ scenarios that pop up in my head, hence why they come with stories/scenarios.
+> - Homework problems are going to the same that I have done in my Python repo.
 
-Study: This consists of topic or topics that I am studying for the week. My goal is to understand them and how they work in the web ecosystem.
-
-Element: This consists element or elements that I am studying for the week. I will create something or multiple things that encompass this element so that way I can understand how it works, how to style it, and "what makes it tick".
+Study: This consists of a web or system design topic or topics that I am studying for the week. My goal is to understand them and how they work in the web ecosystem.
 
 Summary: I am going to recount what I learned each week and what challenges I faced and how I overcame them
 <br>
