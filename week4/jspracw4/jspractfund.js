@@ -21,5 +21,3 @@ const myname = 'Alex'
 // using consts to store variabes that we may forget like colors we used during Let's Read
 const COLOR_WEIRD_BLUE = '#006AFF'; //uppercase because before exectuion
 alert(COLOR_WEIRD_BLUE);
-
-// 
