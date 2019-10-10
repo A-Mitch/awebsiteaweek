@@ -52,20 +52,20 @@ let one = 2, two = 1;
 // alert(null === "\n0\n")
 
 // prompt
-let input = prompt("What is your favorite color","yellow")
-alert(`Your favorite color is ${input}`)
+// let input = prompt("What is your favorite color","yellow")
+// alert(`Your favorite color is ${input}`)
 // cancel = null
 
 // confirm
-let ques = confirm("Are you hungry");
-alert(ques)
+// let ques = confirm("Are you hungry");
+// alert(ques)
 // cancel = false
 
-let namer = prompt("What is your name?")
+// let namer = prompt("What is your name?")
 // alert(`Your name is ${namer}`)
 
 // Ternary operator
-let nameeval = (name == "Alex") || (name == "alex") ? alert(`${namer} is a cool name`) : alert(`${namer} is kind of a bad name`);
+// let nameeval = (name == "Alex") || (name == "alex") ? alert(`${namer} is a cool name`) : alert(`${namer} is kind of a bad name`);
 
 // If equivalent
 /* if ((namer == "Alex") || (namer == "alex")) {
@@ -73,3 +73,74 @@ let nameeval = (name == "Alex") || (name == "alex") ? alert(`${namer} is a cool 
 } else {
     alert(`${namer} is kind of a bad name`)
 } */
+
+// plaign around with some bitwise operators
+let next = 1<<3 //Moves 1 tot he left by three places so we get 8 in binary or 1000 :)
+// alert(next);
+
+// alert(null || 2 || undefined);
+// output is 2
+
+// Password checker.
+// let login = prompt("What is your username?");
+
+// if(login == "Admin" || login == "admin"){
+//     let password = prompt("Please enter the password: ");
+//     if(password == 'TheMaster'){
+//         alert("Welcome!");
+//     } else if (password == '' || password === null){
+//         alert("Canceled");
+//     } else{
+//         alert("Wrong password");
+//     }
+// } else if (login == '' || login === null) {
+//     alert("Canceled");
+// } else {
+//     alert("I don\'t know you")
+// }
+
+let n = 4;
+// while
+// while(n>0){
+//     alert("Yeet: "+n)
+//     n--;
+// }
+
+// do while loop
+// do {
+//     alert("Yeet: " + n)
+//     n--;
+// } while(n>0);
+
+// ole faithful -- For loop i++ executes the body after each iteration lol
+// for (let i = 0; i < 2; i++){
+//     alert("Wow");
+// }
+
+let num = prompt("What is your number");
+// only prints the even numbers
+prime: for(let i = 2; i < num; i++){
+    for(let j = 2;j<i;j++){
+        if (i % j == 0) {
+            continue prime;
+        }
+    }
+    alert(i)
+}
+
+// Break and continue can't be used with ternary operators
+
+// labels are used to help break out of loops
+// labelName: for(...) {...}
+
+/*
+outerfunc: for(let i = 0; i<5;i++){
+    for(let j = 0; j<5;j++){
+        let input = prompt(`Value at coord (${i},${j})`,'')
+        if(!input){
+            break outerfunc;
+        }
+    }
+}
+alert('Done!')
+*/
