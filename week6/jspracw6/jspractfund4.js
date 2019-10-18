@@ -1,4 +1,5 @@
 // This is a continuation of my javascript practice
+'use strict';
 
 // A little warmup
 function warmup(name="Put in a name lol"){
@@ -133,3 +134,5 @@ let ask = (question,yes, no) => {
 }
 
 ask("Are you cool?", () => alert("You agreed."),() => alert("You canceled the execution."))
+
+// Declare your helper functions before the fucntion that uses them.
