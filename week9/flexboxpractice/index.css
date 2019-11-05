@@ -1,0 +1,56 @@
+.container-1 {
+    display: flex;
+}
+
+.container-1 div, .container-2 div, .container-3 div {
+    padding: 10px;
+}
+
+.box-1 {
+    /* color: #FF6500; */
+    background-color:#FF6500 ;
+
+}
+
+.box-2 {
+    /* color: #006500; */
+    background-color:#006500 ;
+}
+
+.box-3 {
+    /* color: #0020FF; */
+    background-color:#0020FF ;
+
+}
+
+.container-2 {
+    display: flex;
+}
+
+.box-4 {
+   background-color:rgb(255, 251, 0); 
+   flex:1;
+}
+
+.box-4 h3,p {
+   display: flex; 
+   align-items: center;
+   justify-content: center; 
+}
+
+.container-3 {
+    display: flex;
+}
+
+.box-5 {
+    background-color:#009BD8;
+}
+
+.box-6 {
+    background-color:#0076A5;
+}
+
+.box-7 {
+    background-color:#00648C;
+    flex: 3;
+}
